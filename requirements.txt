@@ -1,0 +1,13 @@
+torch
+torchvision
+matplotlib
+scikit-learn
+opencv-python
+tqdm
+pillow
+numpy
+
+# Optional packages (for enhanced features)
+# Uncomment to install:
+# pandas         # For CSV export in predict.py --dir mode
+# seaborn        # For better visualizations in visualize_results.py

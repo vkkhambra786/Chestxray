@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch Models
+*.pth
+*.pt
+*.onnx
+*_traced.pt
+
+# Results and Logs (keep latest, ignore old ones)
+training_results_*.txt
+training_history_*.json
+training_plot_*.png
+training_history_small_*.png
+training_history_small_*.json
+training_results_small_*.txt
+*.log
+*.csv
+confusion_matrix.png
+roc_curve.png
+prediction_confidence.png
+prediction_*.png
+
+# Temporary files
+*.tmp
+*.bak
+*.cache

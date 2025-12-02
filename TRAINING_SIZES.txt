@@ -1,0 +1,20 @@
+# Quick config changes for different dataset sizes
+# Copy this into train_cxray_small.py to adjust
+
+# FOR 200 TOTAL IMAGES (~10-20 minutes training)
+MAX_TRAIN_PER_CLASS = 100   # 100 NORMAL + 100 PNEUMONIA = 200 train
+MAX_VAL_PER_CLASS = 5
+MAX_TEST_PER_CLASS = 50
+NUM_EPOCHS = 5
+
+# FOR 500 TOTAL IMAGES (~30-45 minutes training)
+# MAX_TRAIN_PER_CLASS = 250   # 250 NORMAL + 250 PNEUMONIA = 500 train
+# MAX_VAL_PER_CLASS = 8
+# MAX_TEST_PER_CLASS = 100
+# NUM_EPOCHS = 5
+
+# FOR 1000 TOTAL IMAGES (~1-1.5 hours training)
+# MAX_TRAIN_PER_CLASS = 500   # 500 NORMAL + 500 PNEUMONIA = 1000 train
+# MAX_VAL_PER_CLASS = 8
+# MAX_TEST_PER_CLASS = 200
+# NUM_EPOCHS = 6
