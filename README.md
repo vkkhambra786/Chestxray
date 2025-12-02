@@ -860,7 +860,7 @@ This project is licensed under the **MIT License** - see LICENSE file for detail
 **Additional Terms for Medical Use:**
 - Must include disclaimer about educational/research use
 - Requires regulatory approval before clinical deployment
-- Authors not liable for medical decisions based on this system
+- Authors not liable for medical decisions based on this systems
 
 ---
 
